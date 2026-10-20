@@ -122,8 +122,8 @@ Después de iniciar sesión, no es necesario pasar el token al constructor:
 from rp_utils import HFDatasetLoader
 
 loader = HFDatasetLoader(
-    dataset_name="JasonZhouTI/Fast_Food_Restaurants",
-    filename="datos/fast_food.csv",
+    dataset_name="scikit-learn/iris",
+    filename="datos/iris.csv",
 )
 df = loader.load()
 ```
@@ -143,8 +143,8 @@ opcionales; si se proporciona `filename`, el DataFrame también se guarda en
 from rp_utils import HFDatasetLoader
 
 loader = HFDatasetLoader(
-    "Fast_Food_Restaurants",
-    filename="datos/fast_food.csv",
+    "scikit-learn/iris",
+    filename="datos/iris.csv",
 )
 df = loader.load()
 ```
@@ -163,8 +163,8 @@ PYTHONPATH=src python -c '
 from rp_utils import HFDatasetLoader
 
 df = HFDatasetLoader(
-    "Fast_Food_Restaurants",
-    filename="datos/fast_food.csv",
+    "scikit-learn/iris",
+    filename="datos/iris.csv",
 ).load()
 
 print(df.head())
@@ -175,7 +175,7 @@ También se puede indicar el formato explícitamente:
 
 ```python
 loader = HFDatasetLoader(
-    "Fast_Food_Restaurants",
-    filename="datos/fast_food",
+    "scikit-learn/iris",
+    filename="datos/iris",
     file_type="parquet",
 )
