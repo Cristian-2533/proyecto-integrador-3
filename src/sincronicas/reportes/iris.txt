@@ -1,0 +1,32 @@
+REPORTE DEL DATAFRAME
+============================================================
+Filas: 50
+Columnas: 6
+Duplicados: 2
+
+Columnas y tipos:
+- longitud_sepalo_cm: float64
+- ancho_sepalo_cm: float64
+- longitud_petalo_cm: float64
+- ancho_petalo_cm: float64
+- especie: object
+- area_petalo_aprox_cm2: float64
+
+Valores nulos por columna:
+- longitud_sepalo_cm: 0
+- ancho_sepalo_cm: 0
+- longitud_petalo_cm: 0
+- ancho_petalo_cm: 0
+- especie: 0
+- area_petalo_aprox_cm2: 0
+
+Estadísticas numéricas:
+       longitud_sepalo_cm  ancho_sepalo_cm  longitud_petalo_cm  ancho_petalo_cm  area_petalo_aprox_cm2
+count              50.000           50.000              50.000           50.000                 50.000
+mean                5.006            3.418               1.464            0.244                  0.363
+std                 0.352            0.381               0.174            0.107                  0.183
+min                 4.300            2.300               1.000            0.100                  0.110
+25%                 4.800            3.125               1.400            0.200                  0.265
+50%                 5.000            3.400               1.500            0.200                  0.300
+75%                 5.200            3.675               1.575            0.300                  0.420
+max                 5.800            4.400               1.900            0.600                  0.960
